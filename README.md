@@ -17,8 +17,7 @@ This is an Face Processing module using the for [CodeProject.AI Server](https://
          - src
          - ... etc
       - CodeProject.AI-Modules
-         - CodeProject.AI-FaceProcessing
-         (this repo)
+         - CodeProject.AI-FaceProcessing (this repo)
     ```
 
 3. **If you have NOT run dev setup on the server**
