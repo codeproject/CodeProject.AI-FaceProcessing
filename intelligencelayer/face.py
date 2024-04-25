@@ -12,15 +12,8 @@ from typing import Tuple
 #       make our init and process methods async.
 import sqlite3
 
-# Import the CodeProject.AI SDK. This will add to the PATH var for future imports
-if os.getcwd().endswith("intelligencelayer"):
-    sys.path.append("../../../SDK/Python")
-else:
-    sys.path.append("../../SDK/Python")
-from common import JSON
-from request_data import RequestData
-from module_runner import ModuleRunner
-from module_logging import LogMethod
+# Import CodeProject.AI SDK
+from codeproject_ai_sdk import RequestData, ModuleRunner, LogMethod, JSON
 
 # Deepstack settings
 from shared import SharedOptions

@@ -1,5 +1,8 @@
 import os
 
+# CodeProject.AI module options helper
+from codeproject_ai_sdk import ModuleOptions
+
 class Settings:
     def __init__(
         self,
@@ -14,9 +17,6 @@ class Settings:
         self.FACE_LOW         = FACE_LOW
         self.FACE_MODEL       = FACE_MODEL
         self.FACE_RECOG_MODEL = FACE_RECOG_MODEL
-
-# CodeProject.AI module options helper
-from module_options import ModuleOptions
 
 class SharedOptions:
 
