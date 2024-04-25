@@ -1,0 +1,16 @@
+{
+  "Modules": {
+
+    "FaceProcessing": {
+      "LaunchSettings": {
+        "AutoStart": false,
+        "Runtime": "python3.8"
+      },
+      "EnvironmentVariables": {
+        "PROFILE": "jetson",
+        "USE_CUDA": "False",
+        "MODE": "LOW"
+      }
+    }
+  }
+}

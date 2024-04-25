@@ -1,0 +1,10 @@
+{
+  "Modules": {
+
+    "FaceProcessing": {
+      "LaunchSettings": {
+        "Runtime": "python3.7"
+      }
+    }
+  }
+}
