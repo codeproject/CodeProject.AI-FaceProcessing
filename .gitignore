@@ -17,3 +17,4 @@ assets/
 # Python install / Virtual environment
 bin/
 
+/datastore
