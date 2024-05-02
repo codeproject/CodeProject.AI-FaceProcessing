@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "presentation": {
+                "group": "Start",
+                "hidden": false
+            },
+
+            "name": "Launch Face Processing",
+            "type": "debugpy",
+            "justMyCode": false,
+            "request": "launch",
+            "program": "intelligencelayer/face.py",
+            // "args": [ "--selftest" ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+
+            "env": {
+                "DEBUG_IN_VSCODE": "True",
+                "RUNNING_IN_VSCODE": "True",
+                // "CPAI_LOG_VERBOSITY": "Loud",
+                "CPAI_PORT": "32168"
+            },
+
+            "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/linux/python38/venv/bin/python",
+            "windows": {
+                "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/windows/python37/venv/Scripts/python"
+            },
+            "linux": {
+                "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/linux/python38/venv/bin/python",
+            },
+            "osx": {
+                "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/macos/python38/venv/bin/python",
+            }
+        }
+    ]
+}
