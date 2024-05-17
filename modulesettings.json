@@ -69,6 +69,7 @@
           { "ModuleVersion": "1.9.3",  "ServerVersionRange": [ "2.5.0-RC6", "" ],   "ReleaseDate": "2024-01-18", "ReleaseNotes": "Updated explorer" },
           { "ModuleVersion": "1.10.0", "ServerVersionRange": [ "2.5.0-RC6", "" ],   "ReleaseDate": "2024-01-21", "ReleaseNotes": "Module performance statistics added" },
           { "ModuleVersion": "1.10.1", "ServerVersionRange": [ "2.5.2", ""     ],   "ReleaseDate": "2024-02-08", "ReleaseNotes": "Support for CodeProject.AI Server 2.5.2" },
+          { "ModuleVersion": "1.10.2", "ServerVersionRange": [ "2.5.2", ""     ],   "ReleaseDate": "2024-04-15", "ReleaseNotes": "Support for Raspberry Pi", "Importance": "Minor" },
           { "ModuleVersion": "1.11.0", "ServerVersionRange": [ "2.7.0", ""     ],   "ReleaseDate": "2024-04-25", "ReleaseNotes": "Support for CodeProject.AI Server 2.7.0" }
         ]
       },
