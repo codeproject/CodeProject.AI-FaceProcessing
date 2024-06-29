@@ -4,7 +4,7 @@
 #
 #                            FaceProcessing
 #
-# This script is called from the Vision directory using: 
+# This script is called from the FaceProcessing directory using: 
 #
 #    bash ../../CodeProject.AI-Server/src/setup.sh
 #
