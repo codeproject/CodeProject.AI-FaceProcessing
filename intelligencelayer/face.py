@@ -8,6 +8,9 @@ import threading
 from threading import Lock
 from typing import Tuple
 
+# For PyTorch on Apple silicon
+os.environ["PYTORCH_ENABLE_MPS_FALLBACK"] = "1"
+
 # TODO: We should move to async SQLite https://github.com/omnilib/aiosqlite and
 #       make our init and process methods async.
 import sqlite3
