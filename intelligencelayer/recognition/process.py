@@ -8,7 +8,7 @@ from .networks import Backbone, MobileFaceNet
 
 
 def load_model(model, path):
-    checkpoint = torch.load(path, map_location=lambda storage, loc: storage)
+    checkpoint = torch.load(path, map_location=lambda storage, loc: storage, weights_only=True)
 
     try:
         model.load_state_dict(checkpoint)
