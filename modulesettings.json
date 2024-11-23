@@ -12,7 +12,7 @@
         "License": "GPL-3.0",
         "LicenseUrl": "https://opensource.org/licenses/GPL-3.0",
         "Author": "Chris Maunder, Matthew Dennis",
-        "Homepage": "https://https://github.com/codeproject/CodeProject.AI-Server/",
+        "Homepage": "https://github.com/codeproject/CodeProject.AI-Server/",
         "BasedOn": "Deepstack",
         "BasedOnUrl": "https://github.com/johnolafenwa/DeepStack"
       },
