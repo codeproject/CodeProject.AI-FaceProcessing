@@ -22,15 +22,16 @@
                 "CPAI_PORT": "32168"
             },
 
-            "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/linux/python38/venv/bin/python",
+            "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/windows/python37/venv/Scripts/python",
             "windows": {
-                "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/windows/python37/venv/Scripts/python"
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/windows/python37/venv/Scripts/python"
             },
             "linux": {
-                "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/linux/python38/venv/bin/python",
+                // "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/ubuntu/python38/venv/bin/python",
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/debian/python38/venv/bin/python",
             },
             "osx": {
-                "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/macos/python38/venv/bin/python",
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/macos/python38/venv/bin/python",
             }
         }
     ]
