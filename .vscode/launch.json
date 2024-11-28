@@ -33,6 +33,41 @@
             "osx": {
                 "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/macos/python38/venv/bin/python",
             }
-        }
+        },
+
+        {
+            "presentation": {
+                "group": "Start",
+                "hidden": false
+            },
+
+            "name": "Test Face Processing",
+            "type": "debugpy",
+            "justMyCode": false,
+            "request": "launch",
+            "program": "intelligencelayer/face.py",
+            "args": [ "--selftest" ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+
+            "env": {
+                "RUNNING_IN_VSCODE": "True",
+                // "CPAI_LOG_VERBOSITY": "Loud",
+                "CPAI_PORT": "32168"
+            },
+
+            // Face uses shared python install
+            "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/windows/python37/venv/Scripts/python",
+            "windows": {
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/windows/python37/venv/Scripts/python"
+            },
+            "linux": {
+                // "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/ubuntu/python38/venv/bin/python",
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/debian/python38/venv/bin/python",
+            },
+            "osx": {
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/macos/python38/venv/bin/python",
+            }
+        }        
     ]
 }
