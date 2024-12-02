@@ -1,4 +1,5 @@
 import time
+from packaging import version
 
 import torch
 import torchvision.transforms as transforms
@@ -8,7 +9,10 @@ from .networks import Backbone, MobileFaceNet
 
 
 def load_model(model, path):
-    checkpoint = torch.load(path, map_location=lambda storage, loc: storage, weights_only=True)
+    if version.parse(torch.__version__) >= version.parse("1.13"):
+        checkpoint = torch.load(path, map_location=lambda storage, loc: storage, weights_only=True)
+    else:
+        checkpoint = torch.load(path, map_location=lambda storage, loc: storage)
 
     try:
         model.load_state_dict(checkpoint)
