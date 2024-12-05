@@ -9,7 +9,7 @@ from .networks import Backbone, MobileFaceNet
 
 
 def load_model(model, path):
-    if version.parse(torch.__version__) >= version.parse("1.13"):
+    if version.parse(torch.__version__) > version.parse("1.15"):
         checkpoint = torch.load(path, map_location=lambda storage, loc: storage, weights_only=True)
     else:
         checkpoint = torch.load(path, map_location=lambda storage, loc: storage)
